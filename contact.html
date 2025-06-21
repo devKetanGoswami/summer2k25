@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="portfolio.html">Home</a> |
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" required></textarea><br><br>
+
+      <label>Preferred Contact Method:</label><br>
+      <input type="checkbox" name="contact" value="Email"> Email
+      <input type="checkbox" name="contact" value="Phone"> Phone
+      <input type="checkbox" name="contact" value="Text"> Text<br><br>
+
+      <label>Inquiry Type:</label><br>
+      <input type="radio" name="inquiry" value="General" checked> General
+      <input type="radio" name="inquiry" value="Business"> Business
+      <input type="radio" name="inquiry" value="Support"> Support<br><br>
+
+      <!-- Enhancement Challenge fields -->
+      <label for="topic">Select Topic:</label><br>
+      <select id="topic" name="topic" required>
+        <option value="">--Choose--</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+      </select><br><br>
+
+      <label for="date">Preferred Date:</label><br>
+      <input type="date" id="date" name="date"><br><br>
+
+      <label for="urgency">Urgency:</label><br>
+      <input type="range" id="urgency" name="urgency" min="1" max="10"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+HTML Elements:
+- <h1> to <h6>: Used for headings from most to least important.
+- <ul> and <ol>: Used to list skills and educational background.
+- <table>: Used to show work experience in a structured format.
+- <form>, <input>, <textarea>: Used to create the contact form.
+
+Input Types:
+- "email" ensures the user enters a valid email.
+- "tel" allows phone number pattern matching.
+- "date", "range", and "select" add user-friendly input options.
+
+Navigation:
+- Each page has a header with <nav> and <a> elements to allow users to move between the pages.
+- Links use relative paths like `about.html` and external links use full URLs with `target="_blank"`.
